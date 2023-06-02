@@ -27,12 +27,10 @@ console.log("-----------------");
 const aktoresVardas = "Scarlett";
 const aktoresPavarde = "Johansson";
 
-const vardoIndex = aktoresVardas.length;
-const pavardeIndex = aktoresPavarde.length;
 
 
 
-console.log(aktoresVardas[vardoIndex - 3] + aktoresVardas[vardoIndex - 2] + aktoresVardas[vardoIndex - 1] + " " + aktoresPavarde[pavardeIndex - 3] + aktoresPavarde[pavardeIndex - 2] + aktoresPavarde[pavardeIndex - 1]);
+console.log(aktoresVardas[aktoresVardas.length - 3] + aktoresVardas[aktoresVardas.length - 2] + aktoresVardas[aktoresVardas.length - 1] + " " + aktoresPavarde[aktoresPavarde.length - 3] + aktoresPavarde[aktoresPavarde.length - 2] + aktoresPavarde[aktoresPavarde.length - 1]);
 
 
 console.log("-----------------");
